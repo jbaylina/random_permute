@@ -1,0 +1,30 @@
+{
+  "name": "random_permute",
+  "version": "0.0.1",
+  "description": "Circom circuit to permute an array from a hash value.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordi Baylina",
+  "license": "MIT",
+  "keywords": [
+    "circom",
+    "permutation",
+    "cards"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbaylina/random_permute"
+  },
+  "dependencies": {
+    "circom_tester": "^0.0.19",
+    "circomlib": "^2.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
