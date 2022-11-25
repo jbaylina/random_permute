@@ -27,7 +27,7 @@ describe("Random permutation check", function () {
 
     it("Should add point (0,1) and (0,1)", async () => {
 
-        const N = 50;
+        const N = 2;
 
 
         const input={

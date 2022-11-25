@@ -18,7 +18,6 @@ template RandomPermutate(n) {
 
     assert(n<=50);  // 50! < 2^215  << 2^250
 
-    signal bits[254] <== Num2Bits_strict()(hash);
     signal selectors[(1+n)*n/2];
     signal vals[(1+n)*n/2];
     signal valns[(1+n)*n/2];
